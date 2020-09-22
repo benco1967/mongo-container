@@ -94,7 +94,7 @@ $ docker run -d --name mongo_micro_run -p 27017:27017 mongo_micro --smallfiles
 ```
 
 
-####Persistent data
+#### Persistent data
 
 The MongoDB server is configured to store data in the /data directory inside the container. You can map the container's /data volume to a volume on the host so the data becomes independent of the running container:
 
